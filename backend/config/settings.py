@@ -107,6 +107,10 @@ CORS_ALLOWED_ORIGINS = [
     "https://esg-ingestion-platform-8fntmwawt-musharaf725s-projects.vercel.app",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://esg-ingestion-platform-8fntmwawt-musharaf725s-projects.vercel.app",
+]
+
 CORS_ALLOW_HEADERS = list(default_headers) + [
     "x-tenant",
 ]
