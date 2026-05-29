@@ -1,0 +1,27 @@
+[
+  {
+    "trip_id": "TRIP-1001",
+    "traveler": "Rahul Sharma",
+    "category": "flight",
+    "origin": "DEL",
+    "destination": "BLR",
+    "vendor": "IndiGo",
+    "date": "2026-05-02"
+  },
+  {
+    "trip_id": "TRIP-1002",
+    "traveler": "Aisha Khan",
+    "category": "hotel",
+    "vendor": "Marriott",
+    "city": "Mumbai",
+    "date": "2026-05-05"
+  },
+  {
+    "trip_id": "TRIP-1003",
+    "traveler": "John Doe",
+    "category": "ground_transport",
+    "vendor": "Uber",
+    "city": "Hyderabad",
+    "date": "2026-05-06"
+  }
+]
