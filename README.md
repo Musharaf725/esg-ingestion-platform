@@ -50,20 +50,20 @@ python -m pip install django djangorestframework django-cors-headers
 3. Apply migrations and (optionally) create a superuser:
 
 ```
-python manage.py migrate
-python manage.py createsuperuser
+python backend/manage.py migrate
+python backend/manage.py createsuperuser
 ```
 
 4. Seed demo data (provided management command):
 
 ```
-python manage.py seed_demo_data
+python backend/manage.py seed_demo_data
 ```
 
 5. Run the development server:
 
 ```
-python manage.py runserver
+python backend/manage.py runserver
 ```
 
 ## Frontend — local setup
