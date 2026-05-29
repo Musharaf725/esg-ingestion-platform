@@ -104,11 +104,11 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://esg-ingestion-platform-8fntmwawt-musharaf725s-projects.vercel.app",
+    "https://esg-ingestion-platform-jhl4ifi53-musharaf725s-projects.vercel.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://esg-ingestion-platform-8fntmwawt-musharaf725s-projects.vercel.app",
+    "https://esg-ingestion-platform-jhl4ifi53-musharaf725s-projects.vercel.app",
 ]
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
